@@ -42,7 +42,7 @@ design-patterns-strategy/
 - mvn compile
 
 ### Execute
-- mvn exec:java -Dexec.mainClass="br.com.seuusuario.strategy.Main"
+- mvn exec:java -Dexec.mainClass="br.com.pattern.strategy.Main"
 
 ---
 
