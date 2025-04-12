@@ -17,13 +17,13 @@ Este repositório demonstra a aplicação do **padrão de projeto Strategy** uti
 ```bash
 design-patterns-strategy/
 ├── src/
-│   ├── br/
-│   │   └── com/
-│   │       └── pattern/         
-│   │               ├── strategy/             <- Interfaces e estratégias concretas
-│   │               ├── model/                <- Modelos simples (ex: Contrato)
-│   │               ├── service/              <- Lógica de negócio
-│   │               └── Main.java             <- Classe com o exemplo funcional
+│   └── br/
+│      └── com/
+│          └── pattern/         
+│                  ├── strategy/             <- Interfaces e estratégias concretas               
+│                  ├── service/              <- Lógica de negócio, classes que usam a estratégia
+│                  └── Main.java             <- Classe com o exemplo funcional
+├── .gitignore
 ├── README.md
 └── pom.xml (se for Maven) / build.gradle (se for Gradle)
 ```
@@ -42,7 +42,7 @@ design-patterns-strategy/
 - mvn compile
 
 ### Execute
-- mvn exec:java -Dexec.mainClass="br.com.pattern.strategy.Main"
+- mvn exec:java -Dexec.mainClass="br.com.pattern.strategy.br.com.pattern.Main"
 
 ---
 
